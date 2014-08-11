@@ -5,10 +5,16 @@ Does TAP file indicate an error?
 
 Reads a TAP file and exit status indicates success:
   0:  everything is fine
- -1:  some testcase is missing or failed
- -2:  A bailout was thrown
+ 41:  some testcase is missing or failed
+ 58:  A bailout was thrown
 If some text occurs at stderr, taptaptap has a problem
 """
+
+# 41 and 58?
+#  May sound awkward, but it is unallocated according to
+#  - Advanced Bash Scripting Guide
+#  - errno package (on my Linux system)
+#  - sysexits.h
 
 import sys
 import taptaptap
@@ -25,11 +31,11 @@ def main(args):
     else:
         doc = taptaptap.parse_file(args.report)
     if doc.bailed():
-        return -2
+        return 58
     elif doc.valid():
         return 0
     else:
-        return -1
+        return 41
 
 if __name__ == '__main__':
     # command line parameter parsing
