@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 from taptaptap.proc import plan, ok, out, bailout
 

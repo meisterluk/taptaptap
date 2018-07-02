@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 from taptaptap import TapDocument, TapTestcase, TapDocumentIterator
 from taptaptap import TapDocumentFailedIterator, TapDocumentActualIterator

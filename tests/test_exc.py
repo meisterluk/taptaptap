@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 from taptaptap import TapDocumentValidator, parse_string
 from taptaptap.exc import TapMissingPlan, TapInvalidNumbering
