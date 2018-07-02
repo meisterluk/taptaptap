@@ -49,6 +49,6 @@ class TapBailout(Exception):
                                           os.linesep.join(self.data))
 
     def copy(self, memo=None):
-        inst = TapBailout(self.message)
+        inst = TapBailout(memo or self.message)
         inst.data = self.data
         return inst
