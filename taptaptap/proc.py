@@ -83,5 +83,6 @@ def bailout(comment=''):
 
 
 def out():
+    """Print TAP output to stderr"""
     _create()
     print(unicode(writer), file=sys.stderr)
