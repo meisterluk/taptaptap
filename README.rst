@@ -5,7 +5,7 @@ Documentation
 :author:        Lukas Prokop
 :date:          Feb-Apr 2014, Jul 2018
 :license:       BSD 3-clause
-:version:       1.2.0
+:version:       1.2.1
 :issues:        http://github.com/meisterluk/taptaptap/issues
 
 Test Anything Protocol handling for cats \*rawwr*
@@ -23,6 +23,7 @@ It has been tested with Xubuntu 18.04 (Linux 4.15 x86_64) on 2.7.15rc1. A versio
 
 Changelog
 ---------
+:1.2.1: declare encoding in setup.py, README updates
 :1.2.0: Bugfix: do not drop memo in TapBailout,
         shebangs: "python" → "python2",
         Bugfix: initialize next_number with 1,
