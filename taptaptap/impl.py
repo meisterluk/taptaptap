@@ -780,7 +780,7 @@ class TapDocumentValidator(object):
         assigned = set()
         fixed = set()
         sequence = []
-        next_number = None
+        next_number = 1
 
         reuse_errmsg = "Testcase number {} was already used"
 
