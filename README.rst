@@ -18,7 +18,8 @@ Compatibility
 -------------
 
 ``taptaptap`` is only supposed to be working with python 2.7 (due to with statements and argparse).
-It has been tested with Linux 3.8 x86_64. A version for python 3.x is (not yet?) available. It fully supports unicode.
+It fully supports unicode.
+It has been tested with Xubuntu 18.04 (Linux 4.15 x86_64) on 2.7.15rc1. A version for python 3.x is available as package ``taptaptap3``.
 
 Changelog
 ---------
