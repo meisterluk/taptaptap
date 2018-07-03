@@ -3,9 +3,9 @@ Documentation
 
 :name:          taptaptap
 :author:        Lukas Prokop
-:date:          Feb-Apr 2014
+:date:          Feb-Apr 2014, Jul 2018
 :license:       BSD 3-clause
-:version:       1.1.3
+:version:       1.2.0
 :issues:        http://github.com/meisterluk/taptaptap/issues
 
 Test Anything Protocol handling for cats \*rawwr*
@@ -19,6 +19,26 @@ Compatibility
 
 ``taptaptap`` is only supposed to be working with python 2.7 (due to with statements and argparse).
 It has been tested with Linux 3.8 x86_64. A version for python 3.x is (not yet?) available. It fully supports unicode.
+
+Changelog
+---------
+:1.2.0: Bugfix: do not drop memo in TapBailout,
+        shebangs: "python" → "python2",
+        Bugfix: initialize next_number with 1,
+        Bugfix: issue #1
+:1.1.3: tapmerge: support merging more than 2 TAP files,
+        support "-" to denote stdin
+:1.1.2: TapWriter: do not reuse TapWriter instance in TapCreator
+:1.1.1: TapWriter: support data handling in TapBailout
+:1.1.0: procedural API writes to stderr not stdout,
+        bugfix TapCreator: Fix number of testcase determination
+:1.0.5: bugfix procedural API: write version even if default version
+:1.0.4: more tests, fix output/source bug in testsuite
+:1.0.3: install_requires in setup.py
+:1.0.2: introduce requirements.txt
+:1.0.1: Unicode improvements
+:1.0.0: First stable release, packaging improvements, full testsuite
+:0.8.0: Unstable release, minimal testsuite
 
 The File Format
 ---------------

@@ -12,7 +12,7 @@
 
         $ pip install taptaptap
 
-    (C) 2014, Lukas Prokop, BSD 3-clause
+    (C) 2014—2018, Lukas Prokop, BSD 3-clause
 """
 
 import os
@@ -26,7 +26,7 @@ def readfile(fname):
 
 setup(
     name='taptaptap',
-    version='1.1.3',
+    version='1.2.0',
     url='http://lukas-prokop.at/proj/taptaptap/',
     license='BSD',
     author='Lukas Prokop',
