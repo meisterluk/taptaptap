@@ -51,6 +51,5 @@ setup(
         'Topic :: System :: Systems Administration'
     ],
     install_requires=['yamlish'],
-    scripts=['bin/tapmerge', 'bin/tapvalidate'],
-    test_suite='tests.run'
+    scripts=['bin/tapmerge', 'bin/tapvalidate']
 )
